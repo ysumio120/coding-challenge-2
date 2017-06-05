@@ -1,0 +1,81 @@
+/*
+
+	Write your css here.
+
+ */
+
+html, body {
+  height: 100%;
+  margin: 0;
+ }
+
+.main {
+  height: 100vh;  
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.box-layout {
+  width: 100%;
+  flex: 1 1 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+button {
+  margin: 10px;
+  padding: 5px;
+}
+
+.box {  
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  -webkit-flex: 1 1 auto;
+  -moz-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 10px;
+  border: 1px black solid;
+  font-weight: bold;
+  background: transparent;
+}
+
+.odd {
+  background-color: red;
+}
+
+.odd:hover {
+  background-color: yellow;
+}
+
+.even {
+  background-color: blue;
+}
+
+.even:hover {
+  background-color: green;
+}
+
+.divisible-11 {
+  background-color: white;
+}
+
+.divisible-11:hover {
+  background-color: black;
+}
